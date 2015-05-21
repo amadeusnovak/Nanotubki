@@ -1,0 +1,192 @@
+﻿body{
+	background-color: #f8f8f0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  color:#5BBCC9;
+}
+.button_logo {
+	float: left;
+	display: block;
+	height: 32px;
+	width: 32px;
+	margin-top: 19px;
+  	margin-left:30px;
+	background: url(img/logo.png) center center no-repeat;
+	
+	white-space: nowrap;
+	margin-left: 30px;
+	
+}
+.button_artkuly{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	width: 100px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+}
+.button_ciekawostki{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	/*color:#2ddaff;*/
+}
+.button_logowanie{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	
+}
+.button_co{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+
+}
+.button_kontakt{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+
+}
+a.button:hover{
+	border-bottom:3px solid #666666; 
+	background-color:#E1E1E1;
+	color:#3C4543;
+	padding:20px 30px 20px 30px;
+	
+
+}
+
+a{
+	text-decoration: none;
+	color:#416169; 
+}
+a:hover{
+	color: #FFFFFF;
+	background-color: #3D3D3D;
+	border-bottom: 5px solid #09C;
+	padding-bottom: 22px;
+}
+a.button_logo:hover{
+	border-bottom: none;
+	padding-bottom: 0px;
+	background-color: white;
+
+}
+
+a.button_gora:hover{
+	color: none;
+	background-color:  #f8f8f0;
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+footer{
+	
+	clear: both;
+	
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 100%;
+	background-color: #3c4543;	
+}
+.intro{
+	text-align: center;
+	height: 100vh;
+	background-image: url(img/n.png);
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	list-style-position: outside;
+	background-position:left;
+	
+}
+.container{
+	position: static;
+	clear: both;
+	display: block;
+	float: none;
+	padding-top: 20%;
+}
+h1{
+	color:#333;
+}
+h2{
+	color: #666;
+	
+}
+.article{
+	padding: 20% 10% 20% 10%;
+	
+	background-color:#092930;
+	}
+.article> h1{
+	text-align:center;
+	color:#FFFFFF;
+
+}
+#b_1
+{
+	display:none;
+}
+
+#b_2{
+	background-color:#5BBCC9;
+	display:none;
+}
+
+#b_5{
+	text-align: center;
+	display:none;
+	
+	background-color:#FFFFFF;
+	/*background-image: url(carbon-nanotubes.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;	*/
+}
+.left{
+	float: left;
+	
+}
+.right{
+	float: right;	
+}
+
+.button{
+
+	text-align: center;
+
+}

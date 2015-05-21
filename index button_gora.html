@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+		
+	$(document).ready(function(){
+    $("#button1").click(function(){
+        $("#b_1").fadeIn();});
+});
+	$(document).ready(function(){
+    $("#button2").click(function(){
+        $("#b_2").fadeIn();});
+});
+	$(document).ready(function(){
+    $("#button5").click(function(){
+        $("#b_5").fadeIn();});
+});
+
+
+    //tutaj nasze skrypty jquery
+
+ 
+//lub ekwiwalent
+ 
+//$(function() {
+ 
+    //tutaj nasze skrypty
+ 
+//})
+		
+	</script>
+    
+	<meta charset="UTF-8"/>
+	<meta name="keywords" content=" "/>
+	<meta name="description" content=" "/>
+	<meta name="author" content="Klaudia Głuszek"/>
+	<meta name="copyright" content="Klaudia Głuszek"/>
+	<meta name="generator" content="notatnik"/>
+	
+    
+	<meta name="robots" content="all"/>
+	<title>Nanorurki</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css" >
+   <!-- Urządzenia średniej wielkości -->
+    <link rel="stylesheet" href="style.css" media="screen and (max-device-width: 850px) and (min-device-width: 481px)" type="text/css" >
+    <!-- Urządzenia mobilne -->
+	<link type="text/css" rel="stylesheet" media=" only screen and (max-device-width: 480px)" href="style_mobile.css">
+    <!--MONITOR-->
+    	<link type="text/css" rel="stylesheet" media=" screen and (min-device-width: 851px)" href="stylesheet.css">
+	<link rel="stylesheet" href="style_mobile.css" media="handheld" type="text/css">
+	
+	
+</head>
+	
+<body>
+	<nav>
+		<div class="conteiner">
+        	<a class="button_logo" href="#" data-jump="0"></a>
+            <a class="button_artkuly" id="button1" href="#b_1" data-jump="1">ARTYKUŁY</a> 
+            <a class="button_ciekawostki" id="button2" href="#b_2" data-jump="2">CIEKAWOSTKI</a>
+            <a class="button_co" id="button3" href="#" data-jump="3">CO TO?</a>
+            <a class="button_kontakt" id="button4" href="slider.html" data-jump="4">GALERIA</a>
+            <a class="button_logowanie" id= "button5" href="#b_5" data-jump="5">LOGOWANIE</a>
+            
+	</div>
+	</nav>
+	<section class="intro">
+    	<div class="container">
+    	<h1> Nanorurki </h1>
+        <h2>Poznaj niezwykłwykłą strukturę</h2>
+        </div>
+    </section>
+    <section class="article" id="b_1">
+    <h1>Artykuł pierwszy</h1>
+    	<p>Carbon nanotubes (CNTs) are allotropes of carbon with a cylindrical nanostructure. Nanotubes have been constructed with length-to-diameter ratio of up to 132,000,000:1,[1] significantly larger than for any other material. These cylindrical carbon molecules have unusual properties, which are valuable for nanotechnology, electronics, optics and other fields of materials science and technology. In particular, owing to their extraordinary thermal conductivity and mechanical and electrical properties, carbon nanotubes find applications as additives to various structural materials. For instance, nanotubes form a tiny portion of the material(s) in some (primarily carbon fiber) baseball bats, golf clubs, car parts or damascus steel[2] [3]
+
+Nanotubes are members of the fullerene structural family. Their name is derived from their long, hollow structure with the walls formed by one-atom-thick sheets of carbon, called graphene. These sheets are rolled at specific and discrete ("chiral") angles, and the combination of the rolling angle and radius decides the nanotube properties; for example, whether the individual nanotube shell is a metal or semiconductor. Nanotubes are categorized as single-walled nanotubes (SWNTs) and multi-walled nanotubes (MWNTs). Individual nanotubes naturally align themselves into "ropes" held together by van der Waals forces, more specifically, pi-stacking.
+
+Applied quantum chemistry, specifically, orbital hybridization best describes chemical bonding in nanotubes. The chemical bonding of nanotubes is composed entirely of sp2 bonds, similar to those of graphite. These bonds, which are stronger than the sp3 bonds found in alkanes and diamond, provide nanotubes with their unique strength.</p>
+
+    </section>
+    <section class="article" id="b_2">
+	<h1>Ciekawostki</h1>
+    <p>Nanotubes are members of the fullerene structural family. Their name is derived from their long, hollow structure with the walls formed by one-atom-thick sheets of carbon, called graphene. These sheets are rolled at specific and discrete ("chiral") angles, and the combination of the rolling angle and radius decides the nanotube properties; for example, whether the individual nanotube shell is a metal or semiconductor. Nanotubes are categorized as single-walled nanotubes (SWNTs) and multi-walled nanotubes (MWNTs). Individual nanotubes naturally align themselves into "ropes" held together by van der Waals forces, more specifically, pi-stacking.
+
+Applied quantum chemistry, specifically, orbital hybridization best describes chemical bonding in nanotubes. The chemical bonding of nanotubes is composed entirely of sp2 bonds, similar to those of graphite. These bonds, which are stronger than the sp3 bonds found in alkanes and diamond, provide nanotubes with their unique strength.</p>
+    </section>
+    <section class="article" id="b_5">
+    <br>
+    <div class="left">
+    <h2>REJESTRACJA</h2>
+    <form action="mailto:klaudia.gluszek@gmail.com" method="post" autocomplete="on" novalidate>
+    <p><input type="text" required placeholder="Login"/></p>
+    <p><input type="password" required placeholder="Password"/></p>
+    <p><input type="email" required placeholder="email"/></p>
+    <p><input type="submit"></p>
+    </form>
+    </div>
+    <div class="right">
+     <h2>LOGOWANIE</h2>
+     
+     
+
+    <script type="text/javascript">
+				function logowanie()
+				{
+				kod=document.getElementById('haslo').value;
+				if (kod==document.title) {alert('Gratulacje! Hasło poprawne!'); self.location=kod+'z.html'; } else {alert('Niepowodzenie logowania');}
+				}
+				
+				function poczatek()
+				{
+					
+					scrollTo(0,0);
+				}
+			
+					
+				</script>
+  	<form action="..." >
+					<p><input type="text" id="email" placeholder="email"> </p>
+					<p><input type="password" id="haslo" placeholder="Password"></p>
+					<p><input type="button" onClick="logowanie()" value="Zaloguj"></p>
+					
+				</form></div>
+        </section>
+	<aside></aside>
+    <div align="center"><a Class="button_gora" onClick="poczatek()"><img src="img/strzalka1.png" onmouseover="src='img/strzalka2.png'" onmouseout="src='img/strzalka1.png'" border="0" alt="DO GÓRY"></a>
+</p>
+     </footer>
+</body>
+
+</html>
